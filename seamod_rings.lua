@@ -20,7 +20,7 @@ require 'cairo'
 gauge = {
 {
     name='cpu',                    arg='cpu11',                  max_value=100,
-    x=70,                          y=110,
+    x=70,                          y=80,
     graph_radius=56,
     graph_thickness=3,
     graph_start_angle=180,
@@ -41,7 +41,7 @@ gauge = {
 },
 {
     name='cpu',                    arg='cpu10',                  max_value=100,
-    x=70,                          y=110,
+    x=70,                          y=80,
     graph_radius=52,
     graph_thickness=3,
     graph_start_angle=180,
@@ -62,7 +62,7 @@ gauge = {
 },
 {
     name='cpu',                    arg='cpu9',                  max_value=100,
-    x=70,                          y=110,
+    x=70,                          y=80,
     graph_radius=48,
     graph_thickness=3,
     graph_start_angle=180,
@@ -83,7 +83,7 @@ gauge = {
 },
 {
     name='cpu',                    arg='cpu8',                  max_value=100,
-    x=70,                          y=110,
+    x=70,                          y=80,
     graph_radius=44,
     graph_thickness=3,
     graph_start_angle=180,
@@ -104,7 +104,7 @@ gauge = {
 },
 {
     name='cpu',                    arg='cpu7',                  max_value=100,
-    x=70,                          y=110,
+    x=70,                          y=80,
     graph_radius=40,
     graph_thickness=3,
     graph_start_angle=180,
@@ -125,7 +125,7 @@ gauge = {
 },
 {
     name='cpu',                    arg='cpu6',                  max_value=100,
-    x=70,                          y=110,
+    x=70,                          y=80,
     graph_radius=36,
     graph_thickness=3,
     graph_start_angle=180,
@@ -146,7 +146,7 @@ gauge = {
 },
 {
     name='cpu',                    arg='cpu5',                  max_value=100,
-    x=70,                          y=110,
+    x=70,                          y=80,
     graph_radius=32,
     graph_thickness=3,
     graph_start_angle=180,
@@ -167,7 +167,7 @@ gauge = {
 },
 {
     name='cpu',                    arg='cpu4',                  max_value=100,
-    x=70,                          y=110,
+    x=70,                          y=80,
     graph_radius=28,
     graph_thickness=3,
     graph_start_angle=180,
@@ -188,7 +188,7 @@ gauge = {
 },
 {
     name='cpu',                    arg='cpu3',                  max_value=100,
-    x=70,                          y=110,
+    x=70,                          y=80,
     graph_radius=24,
     graph_thickness=3,
     graph_start_angle=180,
@@ -209,7 +209,7 @@ gauge = {
 },
 {
     name='cpu',                    arg='cpu2',                  max_value=100,
-    x=70,                          y=110,
+    x=70,                          y=80,
     graph_radius=20,
     graph_thickness=3,
     graph_start_angle=180,
@@ -230,7 +230,7 @@ gauge = {
 },
 {
     name='cpu',                    arg='cpu1',                  max_value=100,
-    x=70,                          y=110,
+    x=70,                          y=80,
     graph_radius=16,
     graph_thickness=3,
     graph_start_angle=180,
@@ -251,7 +251,7 @@ gauge = {
 },
 {
     name='cpu',                    arg='cpu0',                  max_value=100,
-    x=70,                          y=110,
+    x=70,                          y=80,
     graph_radius=12,
     graph_thickness=3,
     graph_start_angle=180,

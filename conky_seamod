@@ -72,10 +72,11 @@ own_window_argb_value 0
 own_window_colour 000000
 TEXT
 ${font Ubuntu:size=10,weight:bold}${color4}SYSTEM ${hr 2}
-${offset 125}${font Ubuntu:size=10,weight:normal}${color1}$sysname $kernel
-${offset 125}${font Ubuntu:size=10,weight:normal}${color1}$nodename
-${offset 125}${font Ubuntu:size=10,weight:normal}${color1}Uptime: $uptime
+${offset 130}${font Ubuntu:size=10,weight:normal}${color1}$sysname $kernel
+${offset 130}${font Ubuntu:size=10,weight:normal}${color1}$nodename
+${offset 130}${font Ubuntu:size=10,weight:normal}${color1}Uptime: $uptime
 # Showing CPU Graph
+#${voffset 2}
 ${offset 120}${cpugraph 40,223 324D23 77B753}${voffset -25}
 ${offset 90}${font Ubuntu:size=10,weight:bold}${color5}CPU
 # Showing TOP 5 CPU-consumers
