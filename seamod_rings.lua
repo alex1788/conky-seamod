@@ -20,7 +20,7 @@ require 'cairo'
 gauge = {
 {
     name='cpu',                    arg='cpu1',                  max_value=100,
-    x=70,                          y=80,
+    x=70,                          y=75,
     graph_radius=56,
     graph_thickness=2.5,
     graph_start_angle=180,
@@ -41,7 +41,7 @@ gauge = {
 },
 {
     name='cpu',                    arg='cpu1',                  max_value=100,
-    x=70,                          y=80,
+    x=70,                          y=75,
     graph_radius=52,
     graph_thickness=2.5,
     graph_start_angle=180,
@@ -62,7 +62,7 @@ gauge = {
 },
 {
     name='cpu',                    arg='cpu1',                  max_value=100,
-    x=70,                          y=80,
+    x=70,                          y=75,
     graph_radius=48,
     graph_thickness=2.5,
     graph_start_angle=180,
@@ -83,7 +83,7 @@ gauge = {
 },
 {
     name='cpu',                    arg='cpu1',                  max_value=100,
-    x=70,                          y=80,
+    x=70,                          y=75,
     graph_radius=44,
     graph_thickness=2.5,
     graph_start_angle=180,
@@ -104,7 +104,7 @@ gauge = {
 },
 {
     name='cpu',                    arg='cpu1',                  max_value=100,
-    x=70,                          y=80,
+    x=70,                          y=75,
     graph_radius=40,
     graph_thickness=2.5,
     graph_start_angle=180,
@@ -125,7 +125,7 @@ gauge = {
 },
 {
     name='cpu',                    arg='cpu1',                  max_value=100,
-    x=70,                          y=80,
+    x=70,                          y=75,
     graph_radius=36,
     graph_thickness=2.5,
     graph_start_angle=180,
@@ -146,7 +146,7 @@ gauge = {
 },
 {
     name='cpu',                    arg='cpu0',                  max_value=100,
-    x=70,                          y=80,
+    x=70,                          y=75,
     graph_radius=32,
     graph_thickness=2.5,
     graph_start_angle=180,
@@ -167,7 +167,7 @@ gauge = {
 },
 {
     name='cpu',                    arg='cpu0',                  max_value=100,
-    x=70,                          y=80,
+    x=70,                          y=75,
     graph_radius=28,
     graph_thickness=2.5,
     graph_start_angle=180,
@@ -188,7 +188,7 @@ gauge = {
 },
 {
     name='cpu',                    arg='cpu0',                  max_value=100,
-    x=70,                          y=80,
+    x=70,                          y=75,
     graph_radius=24,
     graph_thickness=2.5,
     graph_start_angle=180,
@@ -209,7 +209,7 @@ gauge = {
 },
 {
     name='cpu',                    arg='cpu0',                  max_value=100,
-    x=70,                          y=80,
+    x=70,                          y=75,
     graph_radius=20,
     graph_thickness=2.5,
     graph_start_angle=180,
@@ -230,7 +230,7 @@ gauge = {
 },
 {
     name='cpu',                    arg='cpu0',                  max_value=100,
-    x=70,                          y=80,
+    x=70,                          y=75,
     graph_radius=16,
     graph_thickness=2.5,
     graph_start_angle=180,
@@ -251,7 +251,7 @@ gauge = {
 },
 {
     name='cpu',                    arg='cpu0',                  max_value=100,
-    x=70,                          y=80,
+    x=70,                          y=75,
     graph_radius=12,
     graph_thickness=2.5,
     graph_start_angle=180,
@@ -272,7 +272,7 @@ gauge = {
 },
 {
     name='memperc',                arg='',                      max_value=100,
-    x=70,                          y=300,
+    x=70,                          y=240,
     graph_radius=56,
     graph_thickness=4.5,
     graph_start_angle=180,
@@ -293,7 +293,7 @@ gauge = {
 },
 {
     name='memperc',                arg='',                      max_value=100,
-    x=70,                          y=300,
+    x=70,                          y=240,
     graph_radius=50,
     graph_thickness=4.5,
     graph_start_angle=180,
@@ -314,7 +314,7 @@ gauge = {
 },
 {
     name='memperc',                arg='',                      max_value=100,
-    x=70,                          y=300,
+    x=70,                          y=240,
     graph_radius=44,
     graph_thickness=4.5,
     graph_start_angle=180,
@@ -335,7 +335,7 @@ gauge = {
 },
 {
     name='memperc',                arg='',                      max_value=100,
-    x=70,                          y=300,
+    x=70,                          y=240,
     graph_radius=38,
     graph_thickness=4.5,
     graph_start_angle=180,
@@ -356,7 +356,7 @@ gauge = {
 },
 {
     name='memperc',                arg='',                      max_value=100,
-    x=70,                          y=300,
+    x=70,                          y=240,
     graph_radius=32,
     graph_thickness=4.5,
     graph_start_angle=180,
@@ -377,7 +377,7 @@ gauge = {
 },
 {
     name='memperc',                arg='',                      max_value=100,
-    x=70,                          y=300,
+    x=70,                          y=240,
     graph_radius=26,
     graph_thickness=4.5,
     graph_start_angle=180,
@@ -398,7 +398,7 @@ gauge = {
 },
 {
     name='memperc',                arg='',                      max_value=100,
-    x=70,                          y=300,
+    x=70,                          y=240,
     graph_radius=20,
     graph_thickness=4.5,
     graph_start_angle=180,
@@ -419,7 +419,7 @@ gauge = {
 },
 {
     name='memperc',                arg='',                      max_value=100,
-    x=70,                          y=300,
+    x=70,                          y=240,
     graph_radius=14,
     graph_thickness=4.5,
     graph_start_angle=180,
@@ -440,7 +440,7 @@ gauge = {
 },
 {
     name='fs_used_perc',           arg='/v1/',                     max_value=100,
-    x=70,                          y=465,
+    x=70,                          y=370,
     graph_radius=54,
     graph_thickness=7,
     graph_start_angle=180,
@@ -461,7 +461,7 @@ gauge = {
 },
 {
     name='fs_used_perc',           arg='/home/',                     max_value=100,
-    x=70,                          y=465,
+    x=70,                          y=370,
     graph_radius=42,
     graph_thickness=7,
     graph_start_angle=180,
@@ -482,7 +482,7 @@ gauge = {
 },
 {
     name='fs_used_perc',           arg='/',                     max_value=100,
-    x=70,                          y=465,
+    x=70,                          y=370,
     graph_radius=30,
     graph_thickness=7,
     graph_start_angle=180,
@@ -503,7 +503,7 @@ gauge = {
 },
 {
     name='freq',           arg='0',                     max_value=100,
-    x=70,                          y=665,
+    x=70,                          y=535,
     graph_radius=56,
     graph_thickness=2,
     graph_start_angle=180,
@@ -524,7 +524,7 @@ gauge = {
 },
 {
     name='freq',           arg='0',                     max_value=100,
-    x=70,                          y=665,
+    x=70,                          y=535,
     graph_radius=52,
     graph_thickness=2,
     graph_start_angle=180,
@@ -545,7 +545,7 @@ gauge = {
 },
 {
     name='freq',           arg='0',                     max_value=100,
-    x=70,                          y=665,
+    x=70,                          y=535,
     graph_radius=48,
     graph_thickness=2,
     graph_start_angle=180,
@@ -566,7 +566,7 @@ gauge = {
 },
 {
     name='freq',           arg='0',                     max_value=100,
-    x=70,                          y=665,
+    x=70,                          y=535,
     graph_radius=44,
     graph_thickness=2,
     graph_start_angle=180,
@@ -587,7 +587,7 @@ gauge = {
 },
 {
     name='freq',           arg='0',                     max_value=100,
-    x=70,                          y=665,
+    x=70,                          y=535,
     graph_radius=40,
     graph_thickness=2,
     graph_start_angle=180,
@@ -608,7 +608,7 @@ gauge = {
 },
 {
     name='freq',           arg='0',                     max_value=100,
-    x=70,                          y=665,
+    x=70,                          y=535,
     graph_radius=36,
     graph_thickness=2,
     graph_start_angle=180,
@@ -629,7 +629,7 @@ gauge = {
 },
 {
     name='freq',           arg='1',                     max_value=100,
-    x=270,                          y=665,
+    x=270,                          y=535,
     graph_radius=56,
     graph_thickness=2,
     graph_start_angle=180,
@@ -650,7 +650,7 @@ gauge = {
 },
 {
     name='freq',           arg='1',                     max_value=100,
-    x=270,                          y=665,
+    x=270,                          y=535,
     graph_radius=52,
     graph_thickness=2,
     graph_start_angle=180,
@@ -671,7 +671,7 @@ gauge = {
 },
 {
     name='freq',           arg='1',                     max_value=100,
-    x=270,                          y=665,
+    x=270,                          y=535,
     graph_radius=48,
     graph_thickness=2,
     graph_start_angle=180,
@@ -692,7 +692,7 @@ gauge = {
 },
 {
     name='freq',           arg='1',                     max_value=100,
-    x=270,                          y=665,
+    x=270,                          y=535,
     graph_radius=44,
     graph_thickness=2,
     graph_start_angle=180,
@@ -713,7 +713,7 @@ gauge = {
 },
 {
     name='freq',           arg='1',                     max_value=100,
-    x=270,                          y=665,
+    x=270,                          y=535,
     graph_radius=40,
     graph_thickness=2,
     graph_start_angle=180,
@@ -734,7 +734,7 @@ gauge = {
 },
 {
     name='freq',           arg='1',                     max_value=100,
-    x=270,                          y=665,
+    x=270,                          y=535,
     graph_radius=36,
     graph_thickness=2,
     graph_start_angle=180,
@@ -755,7 +755,7 @@ gauge = {
 },
 {
     name='downspeedf',           arg='eth0',                     max_value=100,
-    x=70,                          y=790,
+    x=70,                          y=670,
     graph_radius=54,
     graph_thickness=7,
     graph_start_angle=180,
@@ -776,7 +776,7 @@ gauge = {
 },
 {
     name='downspeedf',           arg='eth0',                     max_value=100,
-    x=70,                          y=790,
+    x=70,                          y=670,
     graph_radius=42,
     graph_thickness=7,
     graph_start_angle=180,
@@ -797,7 +797,7 @@ gauge = {
 },
 {
     name='upspeedf',           arg='eth0',                     max_value=100,
-    x=270,                          y=790,
+    x=270,                          y=670,
     graph_radius=54,
     graph_thickness=7,
     graph_start_angle=180,
@@ -818,7 +818,7 @@ gauge = {
 },
 {
     name='upspeedf',           arg='eth0',                     max_value=100,
-    x=270,                          y=790,
+    x=270,                          y=670,
     graph_radius=42,
     graph_thickness=7,
     graph_start_angle=180,
