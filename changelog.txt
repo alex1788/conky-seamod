@@ -1,3 +1,5 @@
+1.0.4 - added cpu cores frequency meeter
+
 1.0.3 - change change ethernet captions colors
 
 1.0.2 - change disks captions, disks caption colors, change ethernet download/upload diagram & colors
