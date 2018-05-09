@@ -7,8 +7,9 @@ Conky seamod widget
 
 Version | Changes
 --- | ---
-1.0.3 | change change ethernet captions colors
-1.0.2 | change disks captions, disks caption colors, change ethernet download/upload diagram & colors
+1.0.4 | added cpu cores frequency meeter, changed fonts weight, changed design
+1.0.3 | changed ethernet captions colors
+1.0.2 | changed disks captions, disks caption colors, changed ethernet download/upload diagram & colors
 1.0.1 | fix top #5 memory error
 1.0.0 | base release
 
